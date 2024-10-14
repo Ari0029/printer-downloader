@@ -118,7 +118,7 @@ i18n.configure({
     header: 'accept-language'
 });
 // Ping chính server để giữ cho nó không bị ngủ
-const interval = 5 * 60 * 1000; // 5 phút
+const interval = 13 * 60 * 1000; // 5 phút
 
 setInterval(() => {
     fetch('https://pintersnap.onrender.com')
