@@ -121,7 +121,7 @@ i18n.configure({
 const interval = 13 * 60 * 1000; // 5 phút
 
 setInterval(() => {
-    fetch('https://pintersnap.onrender.com')
+    fetch('https://pinsnap.onrender.com')
         .then(res => res.text())
         .then(text => console.log('Ping thành công:', text))
         .catch(err => console.error('Lỗi khi ping:', err));
